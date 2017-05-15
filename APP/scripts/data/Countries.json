@@ -1,0 +1,21 @@
+[
+  {
+    "type": "country",
+    "unCode": "",
+    "tpCode": "THA",
+    "name": "Thailand",
+    "Country": "",
+    "provinceISOCode": "",
+    "provinceName": "",
+    "": "",
+    "latitude": 14.0668921,
+    "longitude": 99.7680311,
+    "zoomLevel": 7,
+    "phoneCode": 66,
+    "timeZoneCode": "ICT",
+    "timeOffset": 7,
+    "description": "",
+    "isEXODestination": "true",
+    "tpServer": "http://thailand-xml.exotravel.com:8080/iCom/conntest.html"
+  }
+]

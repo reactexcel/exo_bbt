@@ -1,0 +1,2 @@
+type,unCode,tpCode,name,Country,provinceISOCode,provinceName,,latitude,longitude,zoomLevel,phoneCode,timeZoneCode,timeOffset,description,isEXODestination,tpServer
+country,,THA,Thailand,,,,,14.0668921,99.7680311,7,66,ICT,+7,,true,http://thailand-xml.exotravel.com:8080/iCom/conntest.html

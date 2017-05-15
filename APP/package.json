@@ -1,0 +1,27 @@
+{
+  "name": "quickplan-foxx",
+  "version": "0.1.0",
+  "description": "",
+  "dependencies": {
+    "js-base64": "^2.1.9",
+    "jsonapter": "0.0.5",
+    "lodash": "^4.15.0",
+    "moment": "^2.14.1",
+    "xml-escape": "^1.1.0",
+    "xml-mapping": "^1.7.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.8.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "scripts": {
+    "postinstall": "npm run build && cp -R node_modules ./dist/node_modules/",
+    "build": "babel . --out-dir dist --ignore node_modules,dist --presets stage-0"
+  }
+}

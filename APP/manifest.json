@@ -1,0 +1,25 @@
+{
+  "name": "quickplan-foxx",
+  "version": "0.1.0",
+  "description": "QP GraphQL Foxx",
+  "engines": {
+    "arangodb": "^3.1.0"
+  },
+  "author": "Uncircled Solutions",
+  "contributors": [{"name": "Thomas Thil", "email": "thomas@uncircled.asia"}],
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "scripts": {
+    "ImportAllFromTP": "scripts/bundleImport.js",
+    "ImportToursFromTP": "scripts/importTours.js",
+    "ImportSuppliersFromTP": "scripts/importSuppliers.js",
+    "ImportAccFromTP": "scripts/importAccom.js",
+    "ImportTransfersFromTourplan": "scripts/importTransfers.js",
+    "ImportLocationsFromTP": "scripts/importLocations.js",
+    "ImportRates": "scripts/importExchangeRates.js",
+    "ImportCMS": "scripts/importCMS.js",
+    "setup": "scripts/setup.js",
+    "teardown": "scripts/teardown.js"
+  },
+  "tests": "test/**/*.js"
+}
